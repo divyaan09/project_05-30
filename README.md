@@ -1,4 +1,3 @@
-
 # 🖥️ Simple Keylogger (For Local Demo & Educational Use Only)
 
 This is a **simple keylogger** built in Java using basic `Swing` and `AWT` components. It captures keystrokes typed within a Java GUI window and logs them both to the console and to a local file.
