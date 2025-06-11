@@ -1,9 +1,5 @@
-Here's a complete and beginner-friendly `README.md` file for your **Basic Java Keylogger** project.
 
----
-
-```markdown
-# 🖥️ Basic Java Keylogger (For Local Demo & Educational Use Only)
+# 🖥️ Simple Keylogger (For Local Demo & Educational Use Only)
 
 This is a **simple keylogger** built in Java using basic `Swing` and `AWT` components. It captures keystrokes typed within a Java GUI window and logs them both to the console and to a local file.
 
@@ -23,11 +19,9 @@ This is a **simple keylogger** built in Java using basic `Swing` and `AWT` compo
 ## 📂 Project Structure
 
 ```
-
 BasicKeylogger/
 ├── BasicKeylogger.java     # Main Java file
 └── keylog.txt              # File to store logged keys
-
 ```
 
 ---
@@ -45,12 +39,10 @@ BasicKeylogger/
 ### 🧑‍💻 Steps
 
 1. **Clone or Download the Project**
-```
-
-git clone [https://github.com/your-username/BasicKeylogger.git](https://github.com/your-username/BasicKeylogger.git)
+```bash
+git clone https://github.com/your-username/BasicKeylogger.git
 cd BasicKeylogger
-
-````
+```
 
 2. **Save the following code as `BasicKeylogger.java`:**
 *(if you haven’t already)*
@@ -92,24 +84,21 @@ public class BasicKeylogger {
         }
     }
 }
-````
+```
 
 3. **Compile the Program**
-
-   ```bash
-   javac BasicKeylogger.java
-   ```
+```bash
+javac BasicKeylogger.java
+```
 
 4. **Run the Program**
-
-   ```bash
-   java BasicKeylogger
-   ```
+```bash
+java BasicKeylogger
+```
 
 5. **Test the Logger**
-
-   * Start typing in the window.
-   * Keystrokes will be printed in the terminal and logged in `keylog.txt`.
+* Start typing in the window.
+* Keystrokes will be printed in the terminal and logged in `keylog.txt`.
 
 ---
 
@@ -142,10 +131,10 @@ This project is licensed under the **MIT License**. Feel free to fork, modify, a
 
 ## 🙋 FAQ
 
-**Q: Can this run in the background?**
+**Q: Can this run in the background?**  
 A: No. This version only works inside the window. It doesn't run silently or as a background process.
 
-**Q: Is this malicious software?**
+**Q: Is this malicious software?**  
 A: No, not if used ethically and for local testing/learning purposes only. Always inform and get consent.
 
 ---
@@ -153,11 +142,3 @@ A: No, not if used ethically and for local testing/learning purposes only. Alway
 ## 👨‍🏫 Made for Learning
 
 This keylogger is intended for **students and ethical hackers** to understand how keystroke capture works at a basic GUI level.
-
-```
-
----
-
-Let me know if you'd like this turned into a GitHub project structure with image assets or a version that logs timestamps.
-```
-# project_05-30
